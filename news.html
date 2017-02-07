@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My news</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/foundation.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--[if lte IE 9]>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="news-bg">
+    <!-- BEGIN of header -->
+    <header>
+        <div class="row">
+            <div class="column small-5 logo">
+                <a href="index.html">Pavel Panaitov</a>
+            </div>
+            <!-- END col -->
+            <div class="column small-7">
+                <nav class="navigation">
+                    <button class="menu-toggle menu-toggle--collapse" type="button">
+                        <span class="menu-toggle__box">
+                            <span class="menu-toggle__inner"></span>
+                        </span>
+                    </button>
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a href="index.html" class="navigation__link">About</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="portfolio.html" class="navigation__link">Portfolio</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="news.html" class="navigation__link navigation__link--active">News</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="contact.html" class="navigation__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- END col -->
+        </div>
+        <!-- END row -->
+    </header>
+    <!-- END of header -->
+    <main class="row z-index news">
+        <div class="section-head">
+            <h1 class="section-title section-title--news">News</h1>
+            <span class="section-line"></span>
+        </div>
+        <div class="news-slider">
+            <div class="news-slide">
+                <div class="news-slide__img" style="background-image: url(assets/img/beetroot-logo.jpg);"></div>
+                <div class="news-slide__content">
+                    <h4 class="section-title news-slide__title">"Beetroot Academy", FRONTEND courses. / 2016 – Present</h4>
+                    <p>Now, I know what is HTML, CSS, JS and how to use them.</p>
+                </div>
+            </div>
+            <!-- END news-slide -->
+            <div class="news-slide">
+                <div class="news-slide__img" style="background-image: url(assets/img/jtalks-logo.jpg);"></div>
+                <div class="news-slide__content">
+                    <h4 class="section-title news-slide__title"><a href="http://www.jtalks.org">QA Engineer. JTalks (Open source project) / May 2015 – May 2016</a></h4>
+                    <p>Responsibilities: Creating Test Cases and Test Reports, executing functional, UI, usability, security tests, managing test documentation (create, update, review), bug reporting in JIRA</p>
+                </div>
+            </div>
+            <!-- END news-slide -->
+            <div class="news-slide">
+                <div class="news-slide__img" style="background-image: url(assets/img/vkey-logo.png);"></div>
+                <div class="news-slide__content">
+                    <h4 class="section-title news-slide__title">Engineer. Ваш Ключ / September 2012 - May 2016</h4>
+                    <p>Responsibilities: installation and configuration of operating system (Windows XP/7/8.1/10), configuring internet connection and wi-fi routers. Add content to WordPress site. 
+                    </p>
+                </div>
+            </div>
+            <!-- END news-slide -->
+            <div class="news-slide">
+                <div class="news-slide__img" style="background-image: url(assets/img/aec-logo.jpg);"></div>
+                <div class="news-slide__content">
+                    <h4 class="section-title news-slide__title">"American English Center" / 2012 – 2013</h4>
+                    <p>English courses.</p>
+                </div>
+            </div>
+            <!-- END news-slide --> 
+            <div class="news-slide">
+                <div class="news-slide__img" style="background-image: url(assets/img/ukrtelecom-logo.jpg);"></div>
+                <div class="news-slide__content">
+                    <h4 class="section-title news-slide__title">Computer System Engineer. Ukrtelecom / July 2010 - September 2012</h4>
+                    <p>Responsibilities: installing and configuring operating system (Windows XP/7), software (Oracle, Megapolis, Informix), support Active Directory 
+                    </p>
+                </div>
+            </div>
+            <!-- END news-slide -->
+            <div class="news-slide">
+                <div class="news-slide__img" style="background-image: url(assets/img/onpu-logo.jpg);"></div>
+                <div class="news-slide__content">
+                    <h4 class="section-title news-slide__title">Odessa National Polytechnic University / 2003 – 2008 </h4>
+                    <p>Institute of Radio Electronics and Telecommunications, Department of radioengineering equipment.
+                    </p>
+                </div>
+            </div>
+            <!-- END news-slide -->
+        </div>
+        <!-- END slider -->
+        <div class="news-slide__count">
+            <!-- Content will add with JS -->
+        </div>
+        <!-- END news-slide-count -->
+        <div class="portfolio-slide__action">
+            <button class="portfolio-slide__btn news-slide__btn--prev">&#171; Prev</button>
+            &nbsp;|&nbsp;
+            <button class="portfolio-slide__btn news-slide__btn--next">Next &#187;</button>
+        </div>
+        <!-- END portfolio-slide__action -->
+    </main>
+    <footer class="z-index">
+        <p>&copy; 2017 Pavel Panaitov. All Right Reserved.</p>
+    </footer>
+    <script src="assets/plugins/jquery-1.12.4.min.js"></script>
+    <script src="assets/plugins/SmoothScroll.min.js"></script>
+    <script src="assets/plugins/wow.min.js"></script>
+    <script src="assets/plugins/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
