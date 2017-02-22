@@ -893,6 +893,15 @@ main {
   background-color: #52b7f1;
 }
 
+.social__link--linkedin {
+  background-color: #0077B5;
+}
+
+.social__link--linkedin .social__icon {
+  width: 18px;
+  height: 18px;
+}
+
 .social__link:active {
   -webkit-transform: translateY(2px);
       -ms-transform: translateY(2px);
